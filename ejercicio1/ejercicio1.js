@@ -18,7 +18,7 @@ if (hasta>desde){
                 clearInterval(numeros);
             }else{
                 console.log(i);
-                i++;
+                i++; 
     
             }
     
