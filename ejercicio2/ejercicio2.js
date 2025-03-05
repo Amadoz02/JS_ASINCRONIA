@@ -11,3 +11,4 @@
     i++;
  }
  //la funcion pragramada 
+ setTimeout(()=>alert("la funcion programada se ejecuta despes del bucle"),1000);
