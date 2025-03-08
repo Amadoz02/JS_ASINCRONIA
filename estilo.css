@@ -1,0 +1,62 @@
+:root {
+    --color-primario: #e08b0b;
+    --color-secundario: #f35221;
+    --color-texto: #ffffff;
+    --color-fondo: rgba(0, 0, 0, 0.8);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('goku.gif') no-repeat center center fixed;
+    background-size: 50%;
+    color: var(--color-texto);
+    background-color: var(--color-fondo);
+}
+
+.contenedor {
+    background-color: var(--color-fondo);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 24px;
+    color: var(--color-primario);
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.boton-volver {
+    display: inline-block;
+    background-color: var(--color-secundario);
+    color: var(--color-texto);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 10px 10px;
+}
+
+.boton-volver:hover {
+    background-color: var(--color-primario);
+    transform: scale(1.1);
+}

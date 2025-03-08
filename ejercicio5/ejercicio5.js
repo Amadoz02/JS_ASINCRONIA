@@ -16,7 +16,7 @@ function every(array, callback) {
             return false; // Retornamos false inmediatamente
         }
     }
-    return true; // Si todos pasaron la condición, retornamos true
+    return true; // Si todos pasaron la condicin retornamos true
 }
 
 
@@ -27,4 +27,4 @@ function esPar(num) {
 }
 
 const todosSonPares = every(numeros, esPar);
-console.log(todosSonPares); // true
+console.log(todosSonPares); 
