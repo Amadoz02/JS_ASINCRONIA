@@ -18,7 +18,7 @@ if (hasta>desde){
                 clearInterval(numeros);
             }else{
                 console.log(i);
-                i++;
+                i++; 
     
             }
     
@@ -48,5 +48,4 @@ if (hasta>desde){
     }, 1300*(hasta-desde));
 }else{
     throw new Error("el comienzo debe ser menor al numero de finalizacion");
-    
 }

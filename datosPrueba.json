@@ -1,0 +1,42 @@
+[
+    {
+        "nombre": "Helder Felipe",
+        "edad": 18,
+        "ciudad": "Floridablanca"
+    },
+    {
+        "nombre": "juan",
+        "edad": 15,
+        "ciudad": "Floridablanca"
+    },
+    {
+        "nombre": "ana",
+        "edad": 18,
+        "ciudad": "Floridablanca"
+    },
+    {
+        "nombre": "carlos",
+        "edad": 16,
+        "ciudad": "Floridablanca"
+    },
+    {
+        "nombre": "luis",
+        "edad": 28,
+        "ciudad": "Floridablanca"
+    },
+    {
+        "nombre": "Felipe",
+        "edad": 8,
+        "ciudad": "Floridablanca"
+    },
+    {
+        "nombre": "luisa",
+        "edad": 28,
+        "ciudad": "Floridablanca"
+    },
+    {
+        "nombre": "alfonso",
+        "edad": 12,
+        "ciudad": "Floridablanca"
+    }
+]
